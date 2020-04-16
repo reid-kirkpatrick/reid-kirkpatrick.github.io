@@ -4,17 +4,38 @@ html, body {
     background: hsl(207, 100%, 4%);
 }
 
-.main {
+a {
+    color: inherit;
+}
+
+.rak-main {
     position: absolute;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0);
 }
 
+.rak-name {
+    text-align: center;
+}
+
+.rak-description {
+    text-align: center;
+}
+
+.rak-contact {
+    text-align: center;
+}
+
+.rak-contact-item {
+    margin: 0px 16px;
+}
+
 .rak-timeline {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 32px;
+    padding-top: 64px;
 }
 
 .rak-timeline h1 {
@@ -52,7 +73,7 @@ html, body {
 
 .rak-timeline-line {
     position: absolute;
-    left: 11px;
+    left: 8px;
     width: 3px;
     height: 100%;
     background: rgba(255, 255, 255, 0.15);
@@ -65,7 +86,7 @@ html, body {
     align-items: center;
 }
 
-.rak-timeline-node span {
+.rak-timeline-node i {
     background: hsl(207, 100%, 4%);
     color: rgba(255, 255, 255, 0.50);
 }
