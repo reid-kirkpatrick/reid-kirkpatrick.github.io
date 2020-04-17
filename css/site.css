@@ -4,6 +4,10 @@ html, body {
     background: hsl(207, 100%, 4%);
 }
 
+body {
+    margin: 32px;
+}
+
 a {
     color: inherit;
 }
@@ -13,6 +17,14 @@ a {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0);
+}
+
+.rak-avatar {
+    text-align: center;
+}
+
+.rak-avatar img {
+    border-radius: 50%;
 }
 
 .rak-name {
