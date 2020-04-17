@@ -24,10 +24,12 @@ html, body {
 
 .rak-timeline h2 {
     grid-column: 1;
+    color: rgba(255, 255, 255, 0.90);
     text-align: right;
 }
 
-.rak-timeline-position {
+.rak-timeline-jobposition {
+    color: rgba(255, 255, 255, 0.90);
     display: table;
     height: 100%;
 }
@@ -38,13 +40,13 @@ html, body {
     vertical-align: middle;
 }
 
-.rak-timeline-description {
+.rak-timeline-jobdescription {
     grid-column: 3;
 }
 
 .rak-timeline-line-container {
     grid-column: 2;
-    grid-row: 1 / 12;
+    grid-row: 1 / span 6;
     position: relative;
 }
 
@@ -53,7 +55,7 @@ html, body {
     left: 11px;
     width: 3px;
     height: 100%;
-    background: white;
+    background: rgba(255, 255, 255, 0.15);
     z-index: -1;
 }
 
@@ -65,4 +67,17 @@ html, body {
 
 .rak-timeline-node span {
     background: hsl(207, 100%, 4%);
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.rak-timeline-node-one {
+    grid-row: 1;
+}
+
+.rak-timeline-node-two {
+    grid-row: 3;
+}
+
+.rak-timeline-node-three {
+    grid-row: 5;
 }
