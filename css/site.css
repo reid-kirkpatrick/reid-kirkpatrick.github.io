@@ -18,6 +18,10 @@ a {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0);
+    min-width: 320px;
+    max-width: 800px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .rak-avatar {
@@ -29,7 +33,12 @@ a {
 }
 
 .rak-name {
+    position: sticky;
+    top: 0px;
+    padding-top: 16px;
     text-align: center;
+    background: hsl(207, 100%, 4%);
+    z-index: 100;
 }
 
 .rak-description {
@@ -44,11 +53,62 @@ a {
     margin: 0px 16px;
 }
 
+.rak-menu {
+    margin: 32px 0px;
+    padding-top: 58px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background: hsl(207, 100%, 4%);
+    z-index: 99;
+}
+
+.rak-menu a {
+    margin: 0px 32px;
+}
+
+.rak-menu h3 {
+    padding: 16px 0;
+    background: hsl(207, 100%, 7%);
+}
+
+.rak-about {
+    text-align: justify;
+}
+
+.rak-about::before {
+    content: "";
+    display: block;
+    height: 150px;
+    margin: -150px 0 0;
+}
+
+.rak-handiwork {
+    margin-top: 64px;
+}
+
+.rak-handiwork::before {
+    content: "";
+    display: block;
+    height: 150px;
+    margin: -150px 0 0;
+}
+
+.rak-timeline-container {
+    margin-top: 64px;
+}
+
+.rak-timeline-container::before {
+    content: "";
+    display: block;
+    height: 150px;
+    margin: -150px 0 0;
+}
+
 .rak-timeline {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 32px;
-    padding-top: 64px;
 }
 
 .rak-timeline h1 {
