@@ -83,8 +83,15 @@ a {
     margin: -150px 0 0;
 }
 
-.rak-handiwork {
+.rak-handiwork-container {
     margin-top: 64px;
+}
+
+.rak-handiwork {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    column-gap: 32px;
+    row-gap: 32px;
 }
 
 .rak-handiwork::before {
@@ -92,6 +99,27 @@ a {
     display: block;
     height: 150px;
     margin: -150px 0 0;
+}
+
+.rak-handiwork-image {
+    grid-column: 1;
+    width: 100%;
+    background-color: white;
+    opacity: 75%;
+    border-radius: 8px;
+}
+
+.rak-handiwork-links {
+    grid-column: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rak-handiwork-description {
+    grid-column: 2;
+    grid-row: auto / span 2;
+    margin: auto;
+    text-align: justify;
 }
 
 .rak-timeline-container {
