@@ -87,18 +87,18 @@ a {
     margin-top: 64px;
 }
 
+.rak-handiwork-container::before {
+    content: "";
+    display: block;
+    height: 150px;
+    margin: -150px 0 0;
+}
+
 .rak-handiwork {
     display: grid;
     grid-template-columns: 1fr 7fr;
     column-gap: 32px;
     row-gap: 32px;
-}
-
-.rak-handiwork::before {
-    content: "";
-    display: block;
-    height: 150px;
-    margin: -150px 0 0;
 }
 
 .rak-handiwork-image {
