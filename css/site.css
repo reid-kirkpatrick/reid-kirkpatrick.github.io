@@ -54,7 +54,6 @@ a {
 }
 
 .rak-menu {
-    margin: 32px 0px;
     padding-top: 58px;
     text-align: center;
     position: sticky;
@@ -72,7 +71,12 @@ a {
     background: hsl(207, 100%, 7%);
 }
 
+.rak-heading {
+    text-align: center;
+}
+
 .rak-about {
+    margin-top: 64px;
     text-align: justify;
 }
 
