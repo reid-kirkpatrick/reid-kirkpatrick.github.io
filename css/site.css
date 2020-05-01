@@ -87,6 +87,27 @@ a {
     margin: -150px 0 0;
 }
 
+.rak-about a {
+    width: 100%;
+    text-align: center;
+    color: hsl(207, 100%, 33%);
+}
+
+.rak-about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rak-about-skills > h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.rak-about-skills h4 {
+    margin: 16px;
+}
+
 .rak-projects-container {
     margin-top: 64px;
 }
