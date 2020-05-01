@@ -194,7 +194,7 @@ a {
 
 .rak-timeline-line-container {
     grid-column: 2;
-    grid-row: 1 / span 6;
+    grid-row: 1 / span 16;
     position: relative;
 }
 
@@ -243,4 +243,24 @@ a {
 
 .rak-timeline-node-three {
     grid-row: 5;
+}
+
+.rak-timeline-node-four {
+    grid-row: 7;
+}
+
+.rak-timeline-node-five {
+    grid-row: 9;
+}
+
+.rak-timeline-node-six {
+    grid-row: 11;
+}
+
+.rak-timeline-node-seven {
+    grid-row: 13;
+}
+
+.rak-timeline-node-eight {
+    grid-row: 15;
 }
