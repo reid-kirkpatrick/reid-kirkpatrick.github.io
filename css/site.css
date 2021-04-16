@@ -127,6 +127,12 @@ a {
     row-gap: 32px;
 }
 
+.rak-projects-source-link {
+    width: 100%;
+    text-align: center;
+    color: hsl(207, 100%, 33%);
+}
+
 .rak-projects-image {
     grid-column: 1;
     width: 100%;
