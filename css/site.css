@@ -141,6 +141,13 @@ a {
     border-radius: 8px;
 }
 
+.rak-projects-image-nobg {
+    grid-column: 1;
+    width: 100%;
+    opacity: 75%;
+    border-radius: 8px;
+}
+
 .rak-projects-links {
     grid-column: 1;
     display: flex;
@@ -152,6 +159,10 @@ a {
     grid-row: auto / span 2;
     margin: auto;
     text-align: justify;
+}
+
+.rak-projects-description a {
+    color: hsl(207, 100%, 33%);
 }
 
 .rak-timeline-container {
